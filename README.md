@@ -24,5 +24,7 @@
 
 ## 참고자료
 tensorflow 홈페이지 튜토리얼: <https://tensorflow.org/get_started/>
+
 tensorflow 홈페이지 프로그래머 가이드: <https://tensorflow.org/programmers_guide/>
+
 기초 강의: <https://hunkim.github.io/ml/>
