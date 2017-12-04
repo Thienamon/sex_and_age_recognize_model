@@ -24,10 +24,16 @@
 
 ### 현재 문제점
 
- 사진의 이미지를 어떤 방법으로 받아올지..
- 사진을 찍고, 자르고, 결과를 출력하는 프로그램은 c#으로 작성되어 있다.
- 이를 어떻게 연결해야 할지 생각해보자
+사진의 이미지를 어떤 방법으로 받아올지..
+사진을 찍고, 자르고, 결과를 출력하는 프로그램은 c#으로 작성되어 있다.
+이를 어떻게 연결해야 할지 생각해보자
+c#에서 cmd를 통해 predmodel.py를 열고, stdin으로 사진경로를 넣어주는 것으로..
+한번의 변수로드를 위해 로드를 한 뒤 while문으로 stdin입력을 계속 받아 예측을 한다.
 
+### 저장된 variables
+
+성별인식변수: <https://drive.google.com/open?id=1tQhKfbq0epCjEPch8FKsMmDCpSGz2zzl>
+predmodel.py 가 있는 폴더에 savedModel/s/ 아래에 0,1,2,3,4 폴더가 존재하게 압축을 푼다
 
 ## 참고자료
 tensorflow 홈페이지 튜토리얼: <https://tensorflow.org/get_started/>
