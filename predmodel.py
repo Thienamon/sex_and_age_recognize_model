@@ -158,13 +158,13 @@ sess = tf.Session()
 
 sex_models = []
 for m in range(num_models):
-    sex_models.append(Model.Model(sess, "model" + str(m)))
+    sex_models.append(Model(sess, "model" + str(m)))
     save_dir = get_path(sex_path, m)
     sex_models[m].load(save_dir)
 
 age_models = []
 for m in range(num_models):
-    age_models.append(Model.Model(sess, "model" + str(m)))
+    age_models.append(Model(sess, "model" + str(m)))
     save_dir = get_path(age_path, m)
     age_models[m].load(save_dir)
 
