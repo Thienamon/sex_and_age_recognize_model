@@ -167,3 +167,9 @@ for m in range(num_models):
     age_models.append(Model.Model(sess, "model" + str(m)))
     save_dir = get_path(age_path, m)
     age_models[m].load(save_dir)
+
+while True:
+    line = sys.stdin.readline()
+    pred = predict_sex(line, sex_models)
+    for p in pred:
+        print(p)
